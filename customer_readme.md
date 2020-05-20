@@ -2,8 +2,8 @@
 title: Informationen
 
 ---
-# How to:
+# Informationen
 
 Hier könnte man dem Kunden Informationen/Tipps zur Verwaltung angeben.
 
-[Nochmal als PDF zum nachlesen](/admin/Forestry.io Interface & Markdown.pdf)
+[Allgemeine Informationen zur Oberfläche](https://hildegard-foerster.netlify.app/admin/Forestry.io Interface & Markdown.pdf)
