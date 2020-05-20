@@ -49,13 +49,27 @@ fields:
 - type: file
   name: image
   label: image
-- name: page_sections
-  type: blocks
-  label: Seitenabschnitte
-  template_types:
-  - textfeld
+- name: inhalt
+  type: field_group_list
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Überschrift
+  - name: textArea
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
   config:
     min: 
     max: 
+    labelField: 
+  label: Inhalt
 pages:
 - content/Heilverfahren/wellness-und-entspannung.md
