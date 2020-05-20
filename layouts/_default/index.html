@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div>
+    <span class="home" style="color:{{.Params.textColor}}">
+        {{.Content}}
+
+    </span>
+    <br>
+    {{partial "listOfHeilverfahren" . }}
+</div>
+{{ end }}

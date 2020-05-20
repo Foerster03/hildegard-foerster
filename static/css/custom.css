@@ -1,0 +1,242 @@
+body{
+    background-image: url(/images/bg_image.jpg);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.header{
+    margin: 0px 0px 15px;
+}
+
+.bg-white{
+    border-radius: 10px;
+    background-color: white;
+    background-clip: padding-box;
+    padding: 25px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+    min-height: 600px;
+}
+
+.border-white{
+    padding: 31px;
+    background-color: rgba(255, 255, 255, 0.42);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header ul{
+    list-style: none;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+.header ul a{
+    color: #535252;
+    text-decoration: none;
+}
+
+.header ul a:hover,
+.header ul a:active{
+        color: black;
+        text-decoration: none;
+}
+
+.header div{
+    clear: both;
+}
+
+/* Bootstrap Sachen abschalten */
+
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: rgba(116, 170, 7, 0) !important;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0);
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding-top: 0;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: rgba(116, 170, 7, 0) !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(116, 170, 7, 0) !important;
+}
+
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.navbar-toggle-custom{
+    background-color:#74AA07;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    height: 28px;
+    padding: 0px 4px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav {
+    float: unset;
+    margin: 0;
+}
+
+/* Aus mainmenu.css der alten Seite kopiert: */
+
+p, ul{
+    color: #5B5B5B;
+}
+
+.headerMenu{
+    margin-right: 15px;
+    float: right;
+}
+
+.hlist li {
+    margin: 0 5px 0 0px;
+    padding: 0;
+    text-align: center;
+    background:#74AA07;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /*height:28px;
+    width:140px;*/
+    box-sizing: border-box;
+}
+
+.hlist .dropdown-menu li {
+    width: unset !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .hlist li {
+        width:16% !important;
+    }
+    .ListOfHealingMethods .well{
+        height:280px;
+    }
+  }
+  
+  @media (max-width: 1199px) and  (min-width: 992px) {
+    .hlist li {
+        min-width: 15%;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .ListOfHealingMethods .well{
+        height:341px;
+    }
+  }
+  @media (max-width: 991px) and  (min-width: 768px) {
+    .ListOfHealingMethods .well{
+        height:322px;
+    }
+  }
+
+.office img{
+    margin-bottom: 5px;
+}
+
+.hlist li a, 
+.hlist li a:visited {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    height: 26px;
+    padding: 4px;
+}
+
+.hlist li:hover {
+    background-color: #8B8B91;
+}
+
+/* eigene änderungen */
+
+.hlist{
+    margin-bottom:15px;
+}
+
+/* aus content.css*/
+
+a:link
+{
+    color: #595959;
+    font-size: 90%;
+    background: transparent;
+    text-decoration: underline;
+}
+
+a:visited
+{
+    color: #036;
+}
+/* (en) maximum constrast for tab focus - change with great care */
+/* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
+a:focus
+{
+    text-decoration: underline;
+    color: #000;
+   /* background: #fff;  */
+    outline: 3px #f93 solid;
+}
+a:hover, a:active
+{
+    color: #74AA07;
+    text-decoration: underline;
+    outline: 0 none;
+}
+.ListOfHealingMethods strong a:link,
+.ListOfHealingMethods strong a:visited {
+    color: white;
+    background: #74AA07;
+    line-height: 28px;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.ListOfHealingMethods p{
+    margin: 0 0 0 0;
+}
+
+.ListOfHealingMethods img{
+    margin-bottom: 5px;
+}
+
+.belowSummary{
+    margin-top: 10px !important;
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+}
+
+.home img{
+    width: 100%;
+    height:auto;
+}

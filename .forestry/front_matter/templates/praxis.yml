@@ -1,0 +1,13 @@
+---
+label: Praxis
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Bilder
+pages:
+- content/praxis.md

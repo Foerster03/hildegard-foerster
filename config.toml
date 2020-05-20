@@ -1,0 +1,19 @@
+assetDir = "static"
+baseURL = "http://www.hildegard-foerster.de/"
+languageCode = "de-de"
+pluralizelisttitles = false
+title = "Naturheilpraxis Hildegard Förster"
+[[menu.mainmenu]]
+identifier = "healingMethods"
+name = "Heilverfahren"
+weight = 9
+[[menu.impressum]]
+name = "Anmelden"
+URL = "/admin"
+weight = 1
+[params]
+[params.meta]
+author = "Naturheilpraxis Hildegard Förster Lahnstein"
+description = "Naturheilpraxis Hildegard Förster: Heilpraktikerin für Naturheilkunde, Homöopathie, Kinderhomöopathie und Yoga in Lahnstein"
+keywords = "Heilpraktiker, Heilpraktikerin, Heilpraktiker in Lahnstein, Naturheilkunde, Lahnstein, Entspannung, Gelenkschmerzen, Gelenktherapie Dorn, Lösungsorientierte Hypnose, Facial Harmony, Yoga in Lahnstein, Yogaausbildung, Behandlung, Rückenschmerzen, Gelenkschmerzen, Kinesiologie"
+title = "Naturheilpraxis Hildegard Förster: Heilpraktikerin für Naturheilkunde in Lahnstein"

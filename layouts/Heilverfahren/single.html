@@ -1,0 +1,22 @@
+{{ define "main" }}
+    {{if and (isset .Params "image" ) (ne (.Params.image) "" ) }}
+    <h1 class="text-center">{{ .Title }}</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <img class="img-responsive" src="{{ .Params.image }}">
+        
+            <p>{{ .Params.textUnderImage | markdownify}}</p>
+        </div>
+        <div class="col-md-9">
+        
+            {{.Content}}
+        </div>
+        {{else}}
+        <h1 class="text-center">{{ .Title }}</h1>
+        <div class="row">
+            <div class="col-md-12">
+                {{.Content}}
+            </div>
+            {{end}}
+        </div>
+{{ end }}

@@ -1,0 +1,38 @@
+<div class="ListOfHealingMethods">
+    <div class="row">
+        {{ range .Site.Menus.heilverfahren}}
+                <div class="col-md-4 col-sm-6">
+
+                <div class="well">
+                        <h4>{{.Name}}</h3>
+
+                    {{ with .Page}}
+
+                        <!-- Checking for image-->
+                        {{if (isset .Params "image" )}}
+                            {{ $test := print (.Params.image)}}
+                            {{if (resources.GetMatch $test )}}
+                                {{ $originalimg := resources.GetMatch (.Params.image) }}
+                                {{.Scratch.Set "image" ($originalimg.Fit "120x120") }}
+                                {{ $thumbnail := .Scratch.Get "image" }}
+                                <a href="{{.RelPermalink}}">
+                                    <img src='{{ $thumbnail.RelPermalink }}'>
+                                </a>
+
+                            {{ end }}
+
+                            {{else}}
+                            <br>
+                            <p>Kein Bild Hier.</p>
+                        {{end}}
+
+                        <p>
+                            {{ truncate 100 .Page.Summary}}
+                        </p>
+                        <div class="text-right belowSummary"><strong><a href="{{.RelPermalink}}">Mehr</a></strong></div>
+                    {{ end }}
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</div>

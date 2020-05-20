@@ -1,0 +1,25 @@
+---
+label: Kurse/Aktuelles
+hide_body: true
+fields:
+- type: text
+  name: type
+  label: type
+  hidden: true
+  default: special/courses
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- name: page_sections
+  type: blocks
+  label: Seitenabschnitte
+  template_types:
+  - textfeld
+  config:
+    min: 
+    max: 
+pages:
+- content/kurse-aktuelles.md

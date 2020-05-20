@@ -1,0 +1,6 @@
+    {{ with .Param "meta"}}
+        <title>{{ .title }}</title>
+        <meta id="MetaDescription" name="DESCRIPTION" content="{{ .description }}">
+        <meta id="MetaKeywords" name="KEYWORDS" content="{{ .keywords }}">
+        <meta id="MetaAuthor" name="AUTHOR" content="{{ .author }}">
+    {{end}}

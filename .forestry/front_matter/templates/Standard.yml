@@ -1,0 +1,41 @@
+---
+label: Standard
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Titel
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Zusammenfassung
+  description: Die Zusammenfassung die in der Auflistung der Heilverfahren auf der
+    Startseite erscheint.
+- name: image
+  type: file
+  config:
+    maxSize: 
+  label: Bild
+- name: textUnderImage
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text unter Bild
+pages:
+- content/Heilverfahren/facial-harmony-streicheleinheiten-für-ihr-gesicht.md
+- content/Heilverfahren/hypnose.md
+- content/Heilverfahren/mutter-und-kind.md
+- content/Heilverfahren/yoga-in-der-naturheilpraxis.md
+- content/_index.md
+- content/impressum.md
+- content/kontakt.md
+- content/über-mich.md
