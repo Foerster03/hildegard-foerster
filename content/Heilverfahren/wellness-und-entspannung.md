@@ -34,5 +34,8 @@ textArea = "Traditionelle ayurvedische Ganzkörpermassage mit hochwertigen Ölen
 [[fieldRepeatable]]
 headline = "Garshan Massage"
 textArea = "Seidenhandschuh Massage zur Aktivierung des Stoffwechsels und zur Zellerneuerung\n\n40 Min. 45,00 €"
+[[inhalt]]
+headline = "testt"
+textArea = "testtext"
 
 +++
