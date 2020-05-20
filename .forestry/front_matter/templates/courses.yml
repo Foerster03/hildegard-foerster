@@ -35,5 +35,6 @@ fields:
     max: 
     labelField: 
   label: Inhalt
+  description: Hier können Sie weitere Textelemente hinzufügen
 pages:
 - content/kurse-aktuelles.md

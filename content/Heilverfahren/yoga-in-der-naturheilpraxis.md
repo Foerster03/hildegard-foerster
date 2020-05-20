@@ -52,6 +52,6 @@ wende mein Gesicht der Sonne entgegen,
 springe ein paar Mal über meinen eigenen Schatten  
 und lache mich gesund.
 
-#### Lasst uns nicht über das Schlechte klagen, sondern das Gute leben.
+##### _Lasst uns nicht über das Schlechte klagen, sondern das Gute leben._
 
 \- Hans Kruppa
