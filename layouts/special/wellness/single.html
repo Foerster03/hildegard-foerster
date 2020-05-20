@@ -4,14 +4,11 @@
         <div class="col-md-12">
             <img class="img-responsive center-block" src="{{ .Params.image }}">
             <br>
-            {{ range .Params.page_sections}}
-                {{ range .fieldRepeatable}}
+            {{ range .Params.fieldRepeatable}}
                 <div class="well">
                     <h4>{{ .headline }}</h4>
                     <p>{{ .textArea  | markdownify}}</p>
                 </div>
-                {{ end }}
-            
             {{ end }}
         </div>
     </div>
