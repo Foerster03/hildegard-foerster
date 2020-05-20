@@ -14,8 +14,8 @@ fields:
     schema:
       format: markdown
   label: Zusammenfassung
-  description: Die Zusammenfassung die in der Auflistung der Heilverfahren auf der
-    Startseite erscheint.
+  description: 'Die Zusammenfassung die in der Auflistung der Heilverfahren auf der
+    Startseite erscheint.<br>Hinweis: Nur bei den Heilverfahren wichtig'
 - name: image
   type: file
   config:
