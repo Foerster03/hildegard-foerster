@@ -71,5 +71,6 @@ fields:
     max: 
     labelField: 
   label: Inhalt
+  description: Hier können Sie weitere Textelemente hinzufügen
 pages:
 - content/Heilverfahren/wellness-und-entspannung.md
