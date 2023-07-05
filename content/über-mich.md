@@ -1,4 +1,4 @@
----
++++
 date = ""
 image = "/images/HildegardFoerster.jpg"
 summary = ""
@@ -8,7 +8,7 @@ title = "Über Hildegard Förster"
 name = "Über mich"
 weight = 10
 
----
++++
 Im Mittelpunkt meiner Arbeit steht der ganze Mensch mit Körper, Geist und Seele.
 
 Die Behandlung wird ganz individuell auf die Bedürfnisse jedes einzelnen Patienten abgestimmt.
